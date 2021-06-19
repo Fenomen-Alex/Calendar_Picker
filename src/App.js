@@ -17,6 +17,11 @@ export default function App() {
       return setChoosingType('end');
     }
 
+    if (endDate && chosenDay > endDate) {
+      setEndDate(chosenDay);
+      return setChoosingType('end');
+    }
+
     if (choosingType === 'start') {
       setStartDate(chosenDay);
       return setChoosingType('end');
