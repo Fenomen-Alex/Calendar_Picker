@@ -66,3 +66,8 @@ button {
   color: #8096c1;
   background: none;
 }
+
+.calendar-day.is-selected {
+  color: #eee;
+  background: #001031;
+}
