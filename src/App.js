@@ -54,6 +54,9 @@ export default function App() {
         >
           End Date <span>{endDate}</span>
         </StyledDateChooserButton>
+        <StyledDateChooserButton>
+          Days Range <span>{endDate ? endDate - startDate : 0}</span>
+        </StyledDateChooserButton>
       </StyledDateChooser>
 
       <StyledCalendar>
